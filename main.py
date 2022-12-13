@@ -1,1 +1,3 @@
-# something here
+from controller import controller
+
+controller()
