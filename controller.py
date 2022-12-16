@@ -1,6 +1,6 @@
 # запускает графический интерфейс и отрабатывает тот или иной сценарий в зависимости от выбора пользователя
 
-from module import user_interface as ui
+from view import user_interface as ui
 from module import read_database as read_db
 from module import input_data_local
 from module import find_data_local

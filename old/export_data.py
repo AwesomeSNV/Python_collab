@@ -7,7 +7,7 @@ def export_data(data):
         data_exp_type = int(input())
 
     if data_exp_type == 1:
-        with open("exporter.csv", "w", encoding='utf-8') as file1:
+        with open("../exporter.csv", "w", encoding='utf-8') as file1:
             file1.write("Фамилия;Имя;Отчечтво;Номер телефона\n")
             for line in data:
                 for atribute in range(len(line)-1):
@@ -15,7 +15,7 @@ def export_data(data):
                     file1.write(line[atribute] +";")
                 file1.write(line[atribute+1] + "\n")
     else:
-        with open("exporter.xml", "w", encoding='utf-8') as file1:
+        with open("../exporter.xml", "w", encoding='utf-8') as file1:
             file1.write('<?xml version="1.0" encoding="utf-8"?>\n')
             file1.write("<phonebook>\n")
             for i in range (len(data)):

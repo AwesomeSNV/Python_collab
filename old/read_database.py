@@ -2,7 +2,7 @@
 def read_database():
 
     db_list = []
-    db_file =open("database.txt", "r", encoding='utf-8')
+    db_file =open("../database.txt", "r", encoding='utf-8')
     linelist = db_file.readlines()
 
     for line in linelist:
