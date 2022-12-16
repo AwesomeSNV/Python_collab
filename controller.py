@@ -1,13 +1,12 @@
 # запускает графический интерфейс и отрабатывает тот или иной сценарий в зависимости от выбора пользователя
 
-from user_interface import user_interface as ui
-from read_database import read_database as read_db
-from input_data import input_data_local
-from find_data import find_data_local
-from export_data import export_data
-from import_data import import_data
-from data_print import print_data
-
+from module import user_interface as ui
+from module import read_database as read_db
+from module import input_data_local
+from module import find_data_local
+from module import export_data
+from module import import_data
+from module import print_data
 
 def controller():
 
